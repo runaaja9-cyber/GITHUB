@@ -1,0 +1,166 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+.card {
+    width: 480px;
+    max-width: 100%;
+    background-color: white;
+    padding: 55px 50px 45px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 35px;
+    border: 4px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #111;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.nim {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.prodi {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+h2 {
+    color: #10188f;
+    font-size: 21px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+section {
+    margin-top: 32px;
+}
+
+.tentang saya {
+    color: #222;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.hobi {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+
+.hobi div {
+    padding: 5px 5px;
+    border-bottom: 1px solid #eeeeee;
+    color: #15156f;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #75759a;
+
+}
+
+
+.hobi div:first-child {
+    border-top: 1px solid #eeeeee;
+}
+
+
+.instagram {
+    display: inline-block;
+    background-color: #2820c9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.twiter {
+    display: inline-block;
+    background-color: #2820c9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.instagram:hover {
+    background-color: #17128d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(40, 32, 201, 0.3);
+}
+.twiter:hover {
+    background-color: #17128d;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(40, 32, 201, 0.3);
+}
+
+@media (max-width: 600px) {
+
+    body {
+        align-items: flex-start;
+    }
+    .container {
+        padding: 20px 12px;
+    }
+    .card {
+        padding: 40px 25px;
+        border-radius: 15px;
+    }
+    .profile-img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .deskripsi {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+}
